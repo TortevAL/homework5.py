@@ -1,7 +1,7 @@
-my_list = ['Banan', 'kokos', 'anis',"kiwi"]
+my_list = ['Banan', 'kokos', 'anis', "kiwi", "cheri"]
 print(my_list)
-print(my_list[0::2])
-print(my_list[2:3])
+print(my_list[0:-1:3])
+print(my_list[3:5])
 my_list[2]="Salat"
 print(my_list)
 
