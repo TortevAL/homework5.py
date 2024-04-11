@@ -1,8 +1,9 @@
 my_list = ['Banan', 'kokos', 'anis', "kiwi"]
 print(my_list)
-print(my_list[0::3])
-print(my_list[2:4])
-my_list[2]="Salat"
+print(my_list[0])
+print(my_list[-1])
+print(my_list[2:4:2])
+my_list[2] = "Salat"
 print(my_list)
 
 my_dict = {'apple': 'яблоко', 'banana': 'банан', 'orange': 'апельсин'}
