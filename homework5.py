@@ -1,7 +1,7 @@
 my_list = ['Banan', 'kokos', 'anis', "kiwi"]
 print(my_list)
 print(my_list[0::3])
-print(my_list[2:3])
+print(my_list[2:4])
 my_list[2]="Salat"
 print(my_list)
 
